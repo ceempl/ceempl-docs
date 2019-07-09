@@ -1,0 +1,21 @@
+{
+  "name": "ceempl-docs",
+  "version": "1.0.0",
+  "description": "A simple framework for UI development",
+  "author": "Mohammadreza",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^2.6.0",
+    "ceempl": "^0.0.8",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
