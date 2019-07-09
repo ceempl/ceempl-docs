@@ -3,7 +3,7 @@
     <ul>
       <li class="logo">
         <nuxt-link to="/">
-          <img src="~/assets/logo.svg" alt="">
+          <img src="~/assets/logo.svg" alt="ceempl">
           <h2>Ceempl</h2>
         </nuxt-link>
       </li>
@@ -12,7 +12,7 @@
       </li>
       <li>
         <a href="https://github.com/ceempl/ceempl" target="_blank">
-          <img src="~/assets/github.svg" alt="">
+          <img src="~/assets/github.svg" alt="github">
         </a>
       </li>
     </ul>
