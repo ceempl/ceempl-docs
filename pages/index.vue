@@ -38,10 +38,10 @@
       <div class="footer">
         <ul>
           <li>
-            <nuxt-link to="/docs/installation">Documentation</nuxt-link>
+            <a href="https://github.com/ceempl/ceempl" target="_blank">Download</a>
           </li>
           <li>
-            <a href="https://github.com/ceempl/ceempl" target="_blank">Download</a>
+            <nuxt-link to="/docs/installation">Docs</nuxt-link>
           </li>
         </ul>
       </div>
@@ -130,7 +130,7 @@ li {
 }
 
 .intro p {
-  max-width:350px;
+  max-width: 340px;
   font-size: 14px;
   text-align: center;
   color: #FFF;
