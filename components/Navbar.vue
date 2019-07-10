@@ -31,6 +31,10 @@
     font-weight: bold;
   }
 
+  .navbar {
+    border-bottom: 1px solid #F8F9FF;
+  }
+
   .navbar ul {
     padding: 30px 0;
     display: flex;

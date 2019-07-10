@@ -31,7 +31,7 @@
         </svg>
         <p>A lightweight and simple front-end framework for developing fast web interfaces.</p>
         <div class="action">
-          <nuxt-link to="/docs/installation" class="primary">Get started</nuxt-link>
+          <nuxt-link to="/docs" class="primary">Get started</nuxt-link>
           <a class="secondary" href="https://github.com/ceempl/ceempl" target="_blank">GitHub</a>
         </div>
       </div>
@@ -41,7 +41,7 @@
             <a href="https://github.com/ceempl/ceempl" target="_blank">Download</a>
           </li>
           <li>
-            <nuxt-link to="/docs/installation">Docs</nuxt-link>
+            <nuxt-link to="/docs">Docs</nuxt-link>
           </li>
         </ul>
       </div>

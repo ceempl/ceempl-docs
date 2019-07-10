@@ -1,5 +1,5 @@
 {
-  "name": "ceempl-docs",
+  "name": "ceempl",
   "version": "1.0.0",
   "description": "A simple framework for UI development",
   "author": "Mohammadreza",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.6.0",
-    "ceempl": "^0.0.8",
+    "ceempl": "^0.1.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
