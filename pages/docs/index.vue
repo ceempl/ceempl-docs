@@ -42,7 +42,7 @@ yarn add ceempl</code></pre>
                   <p class="description">Looking to quickly add Ceempl to your project? Use CeemplCDN, provided for free by the folks at UNPKG. </p>
                   <div class="code">
                     <pre><code><span class="comment">#using CDN</span>
-<<span>link rel="<span class="blue">stylesheet</span>" href=“<span class="blue">https://stackpath.ceempl.com/ceempl/4.1.3/css/ceempl.css</span>”</span>></code></pre>
+<<span>link rel="<span class="blue">stylesheet</span>" href=“<span class="blue">https://unpkg.com/ceempl@0.1.0/dist/ceempl.css</span>”</span>></code></pre>
                   </div>
                 </div>
               </div>
@@ -83,10 +83,6 @@ export default {
 </script>
 
 <style>
-
-  .docs {
-
-  }
 
   .main {
     margin-top: 50px;
