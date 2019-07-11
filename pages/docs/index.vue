@@ -20,7 +20,8 @@
                   </div>
                   <p class="description">For most projects, you’ll want to install Ceempl via npm.</p>
                   <div class="code">
-                    <pre><code># Using npm
+                    <pre><code><span class="comment"># Using npm</span>
+                    
 npm install ceempl</code></pre>
                   </div>
                 </div>
@@ -75,9 +76,60 @@ export default {
     margin-top: 30px;
   }
 
+  .main .item:hover .header a {
+    opacity: 1;
+  }
+
   .main .item .header {
     display: flex;
     align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .main .item .header a {
+    margin: 0 10px 0 -20px;
+    opacity: 0;
+    text-decoration: none;
+    color: #9A9A9A;
+    transition: all 100ms ease-in-out;
+  }
+
+  .main .item .header a:hover {
+    color: #212121;
+  }
+
+  .main .item .header span {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: #F8F9FF;
+    color: #2F4BFF;
+  }
+
+  .main .item .header h4 {
+    font-size: 16px;
+    color: #212121;
+  }
+
+  .main .item p.description {
+    color: #9A9A9A;
+  }
+
+  .main .item .code {
+    margin: 30px 0;
+    padding: 10px 20px;
+    background: #2D3748;
+    color: #FFF;
+    border-radius: 7px;
+  }
+
+  .main .item .code .comment {
+    font-size: 12px;
+    color: #A0AEC0;
   }
 
 </style>
