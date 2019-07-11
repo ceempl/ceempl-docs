@@ -27,20 +27,6 @@
 
 <style lang="css">
 
-  body {
-    font-weight: bold;
-  }
-
-  p, a, span {
-    font-size: 13px;
-  }
-
-  code {
-    font-family: menlo;
-    font-weight: normal;
-    font-size: 12px;
-  }
-
   .navbar {
     border-bottom: 1px solid #F8F9FF;
   }

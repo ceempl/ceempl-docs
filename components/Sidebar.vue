@@ -93,13 +93,18 @@
     }
 
     .sidebar .item ul li a {
-        font-size: 13px;
         color: #212121;
         text-decoration: none;
         padding: 7px 10px;
         background-color: #FFF;
         border-radius: 6px;
         width: 115px;
+        display: flex;
+    }
+
+    .sidebar .item ul li p {
+        color: #212121;
+        padding: 7px 10px;
         display: flex;
     }
 
