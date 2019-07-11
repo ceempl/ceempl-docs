@@ -12,6 +12,22 @@
                   <h1>Installation</h1>
                   <p>Quick start guide for installing and configuring Ceempl.</p>
                 </div>
+                <div class="item">
+                  <div class="header">
+                    <a href="">#</a>
+                    <span>1</span>
+                    <h4>Install Ceempl via npm</h4>
+                  </div>
+                  <p class="description">For most projects (and to take advantage of Ceempl’s customization features), you’ll want to install Ceempl via npm.</p>
+                  <div class="code">
+                    <pre>
+                      <code>
+                        # Using npm
+                        npm install ceempl 
+                      </code>
+                    </pre>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="col md-2">
