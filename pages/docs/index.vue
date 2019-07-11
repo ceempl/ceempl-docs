@@ -45,7 +45,7 @@ yarn add ceempl</code></pre>
                   <p class="description">Looking to quickly add Ceempl to your project? Use CeemplCDN, provided for free by the folks at UNPKG. </p>
                   <div class="code">
                     <pre><code><span class="comment">#using CDN</span>
-link rel=“stylesheet” href=“https://stackpath.ceempl.com/ceempl/4.1.3/css/ceempl.css</code></pre>
+<<span>link rel="<span class="blue">stylesheet</span>" href=“<span class="blue">https://stackpath.ceempl.com/ceempl/4.1.3/css/ceempl.css</span>”</span>></code></pre>
                   </div>
                 </div>
               </div>
@@ -150,11 +150,17 @@ export default {
     border-radius: 7px;
   }
 
-  .main .item .code .comment {
+  .main .item .code span.comment {
     font-size: 12px;
     color: #A0AEC0;
     margin-bottom: 15px;
     display: inline-block;
+  }
+
+  .main .item .code span.blue {
+    font-size: 12px;
+    color: #65CAFF;
+    margin-bottom: 0;
   }
 
 </style>
