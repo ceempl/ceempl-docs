@@ -31,6 +31,10 @@
     font-weight: bold;
   }
 
+  p, a, span {
+    font-size: 13px;
+  }
+
   .navbar {
     border-bottom: 1px solid #F8F9FF;
   }

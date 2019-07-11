@@ -63,8 +63,9 @@
 </template>
 
 <style>
-    .sidebar {
 
+    .sidebar {
+        margin-top: 60px;
     }
 
     .sidebar .item {

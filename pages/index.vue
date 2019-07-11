@@ -58,6 +58,7 @@
 
 .navbar {
   height: 100px;
+  border-bottom: none;
 }
 
 .navbar ul {
@@ -143,7 +144,6 @@ li {
 }
 
 .intro .action a {
-  font-size: 13px;
   padding: 9px 20px;
   border-radius: 6px;
 }
@@ -178,7 +178,6 @@ li {
 }
 
 .footer ul li a {
-  font-size: 13px;
   color: #FFF;
 }
 
