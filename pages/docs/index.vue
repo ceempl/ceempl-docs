@@ -14,18 +14,14 @@
                 </div>
                 <div class="item">
                   <div class="header">
-                    <a href="">#</a>
+                    <a href="#installation">#</a>
                     <span>1</span>
                     <h4>Install Ceempl via npm</h4>
                   </div>
-                  <p class="description">For most projects (and to take advantage of Ceempl’s customization features), you’ll want to install Ceempl via npm.</p>
+                  <p class="description">For most projects, you’ll want to install Ceempl via npm.</p>
                   <div class="code">
-                    <pre>
-                      <code>
-                        # Using npm
-                        npm install ceempl 
-                      </code>
-                    </pre>
+                    <pre><code># Using npm
+npm install ceempl</code></pre>
                   </div>
                 </div>
               </div>
@@ -73,6 +69,15 @@ export default {
 
   .main .title p {
     color: #9A9A9A;
+  }
+
+  .main .item {
+    margin-top: 30px;
+  }
+
+  .main .item .header {
+    display: flex;
+    align-items: center;
   }
 
 </style>
