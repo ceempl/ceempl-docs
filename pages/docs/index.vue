@@ -33,7 +33,7 @@ npm install ceempl</code></pre>
                   <p class="description">And for most projects, you’ll want to install Ceempl via yarn.</p>
                   <div class="code">
                     <pre><code><span class="comment">#using yarn</span>
-npm install ceempl</code></pre>
+yarn add ceempl</code></pre>
                   </div>
                 </div>
                 <div class="item">
