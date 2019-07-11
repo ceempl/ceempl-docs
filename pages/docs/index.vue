@@ -21,8 +21,31 @@
                   <p class="description">For most projects, you’ll want to install Ceempl via npm.</p>
                   <div class="code">
                     <pre><code><span class="comment"># Using npm</span>
-                    
 npm install ceempl</code></pre>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="header">
+                    <a href="#installation">#</a>
+                    <span>2</span>
+                    <h4>Install Ceempl via yarn</h4>
+                  </div>
+                  <p class="description">And for most projects, you’ll want to install Ceempl via yarn.</p>
+                  <div class="code">
+                    <pre><code><span class="comment"># Using npm</span>
+npm install ceempl</code></pre>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="header">
+                    <a href="#installation">#</a>
+                    <span>3</span>
+                    <h4>Using CDN</h4>
+                  </div>
+                  <p class="description">Looking to quickly add Ceempl to your project? Use CeemplCDN, provided for free by the folks at UNPKG. </p>
+                  <div class="code">
+                    <pre><code><span class="comment"># Using npm</span>
+link rel=“stylesheet” href=“https://stackpath.ceempl.com/ceempl/4.1.3/css/ceempl.css</code></pre>
                   </div>
                 </div>
               </div>
@@ -73,7 +96,7 @@ export default {
   }
 
   .main .item {
-    margin-top: 30px;
+    margin: 30px 0 50px 0;
   }
 
   .main .item:hover .header a {
@@ -130,6 +153,8 @@ export default {
   .main .item .code .comment {
     font-size: 12px;
     color: #A0AEC0;
+    margin-bottom: 15px;
+    display: inline-block;
   }
 
 </style>
