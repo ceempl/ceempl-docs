@@ -4,16 +4,13 @@
             <span class="title">Getting started</span>
             <ul>
                 <li>
-                    <nuxt-link to="/docs/intro">Introduction</nuxt-link>
+                    <nuxt-link to="/docs">Introduction</nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="/docs">Installation</nuxt-link>
+                    <nuxt-link to="/docs/installation">Installation</nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="/docs/download">Download</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link to="/docs/tools">Build tools</nuxt-link>
+                    <nuxt-link to="/docs/webpack">Webpack</nuxt-link>
                 </li>
             </ul>
         </div>
@@ -50,12 +47,6 @@
             <ul>
                 <li>
                     <nuxt-link to="/components/buttons">Buttons</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link to="/components/cards">Cards</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link to="/components/forms">Forms</nuxt-link>
                 </li>
             </ul>
         </div>
