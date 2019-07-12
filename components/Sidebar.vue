@@ -10,7 +10,7 @@
                     <nuxt-link to="/docs/installation">Installation</nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="/docs/webpack">Webpack</nuxt-link>
+                    <nuxt-link to="/docs/usage">Usage</nuxt-link>
                 </li>
             </ul>
         </div>

@@ -76,6 +76,11 @@
     color: #9A9A9A;
   }
 
+  .main .title a {
+    color: #2F4BFF;
+    text-decoration: none;
+  }
+
   .main .item {
     margin: 30px 0 50px 0;
   }
@@ -122,6 +127,14 @@
 
   .main .item p.description {
     color: #9A9A9A;
+  }
+
+  .main .item p.description code {
+    background: #F8F9FF;
+    margin: 0 2px;
+    padding: 3px 8px;
+    color: #2F4BFF;
+    font-weight: bold;
   }
 
   .main .item .code {
