@@ -41,9 +41,10 @@
   }
 
   code {
-    font-family: menlo;
+    font-family: ubuntu;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 13px;
+    letter-spacing: 0.25px;
   }
 
   pre {
@@ -134,7 +135,6 @@
     margin: 0 2px;
     padding: 3px 8px;
     color: #2F4BFF;
-    font-weight: bold;
   }
 
   .main .item .code {
@@ -154,12 +154,16 @@
   .main .item .code span.comment {
     font-size: 12px;
     color: #A0AEC0;
-    margin-bottom: 15px;
     display: inline-block;
+    font-style: italic;
+  }
+
+  .main .item .code span.comment.margin {
+    margin-bottom: 15px;
   }
 
   .main .item .code span.blue {
-    font-size: 12px;
+    font-size: 13px;
     color: #65CAFF;
     margin-bottom: 0;
   }

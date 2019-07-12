@@ -18,7 +18,7 @@
             <span class="title">Layout</span>
             <ul>
                 <li>
-                    <nuxt-link to="/layout/overview">Overview</nuxt-link>
+                    <nuxt-link to="/layout">Overview</nuxt-link>
                 </li>
                 <li>
                     <nuxt-link to="/layout/grid">Grid</nuxt-link>
