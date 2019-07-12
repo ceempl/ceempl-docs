@@ -14,6 +14,7 @@
                 </div>
                 <div class="item">
                   <div class="header">
+                    <a href="#npm">#</a>
                     <span>1</span>
                     <h4>Install Ceempl via npm</h4>
                   </div>
@@ -25,6 +26,7 @@ npm install ceempl</code></pre>
                 </div>
                 <div class="item">
                   <div class="header">
+                    <a href="#yarn">#</a>
                     <span>2</span>
                     <h4>Install Ceempl via yarn</h4>
                   </div>
@@ -36,6 +38,7 @@ yarn add ceempl</code></pre>
                 </div>
                 <div class="item">
                   <div class="header">
+                    <a href="#cdn">#</a>
                     <span>3</span>
                     <h4>Using CDN</h4>
                   </div>
@@ -53,13 +56,13 @@ yarn add ceempl</code></pre>
                   <span class="title">On this page</span>
                   <ul>
                       <li>
-                        <p>npm</p>
+                        <a href="#npm">npm</a>
                       </li>
                       <li>
-                        <p>yarn</p>
+                        <a href="#yarn">yarn</a>
                       </li>
                       <li>
-                        <p>cdn</p>
+                        <a href="#cdn">cdn</a>
                       </li>
                   </ul>
                 </div>

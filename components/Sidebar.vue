@@ -89,7 +89,7 @@
         padding: 7px 10px;
         background-color: #FFF;
         border-radius: 6px;
-        width: 115px;
+        width: 135px;
         display: flex;
     }
 

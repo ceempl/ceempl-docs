@@ -8,7 +8,7 @@
 
   ::-webkit-scrollbar {
     width: 10px;
-    height: 10px;
+    height: 0px;
   }
 
   ::-webkit-scrollbar-track {
@@ -91,7 +91,8 @@
   }
 
   .main .item .header a {
-    margin: 0 10px 0 -20px;
+    margin-left: -20px;
+    padding-right: 10px;
     opacity: 0;
     text-decoration: none;
     color: #9A9A9A;
@@ -149,4 +150,5 @@
     color: #65CAFF;
     margin-bottom: 0;
   }
+
 </style>
