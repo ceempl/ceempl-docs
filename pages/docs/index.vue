@@ -13,7 +13,6 @@
                   <p>A simple framework for UI development.</p>
                 </div>
                 <div class="item">
-                    <img src="~/assets/intro.jpg" alt="">
                   <p class="description">Ceempl is a lightweight, simple and minimal designed CSS framework made for developing fast web interfaces.</p>
                 </div>
               </div>

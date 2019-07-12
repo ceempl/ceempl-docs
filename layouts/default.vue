@@ -140,7 +140,7 @@
   .main .item .code {
     margin: 20px 0;
     padding: 10px 20px;
-    background: #2D3748;
+    background: #272C35;
     color: #FFF;
     border-radius: 7px;
   }
@@ -167,5 +167,27 @@
     color: #65CAFF;
     margin-bottom: 0;
   }
+
+  .main .item .code span.green {
+    color: #39ef2f;
+    font-size: 13px;
+  }
+
+  .main .item .code span.purple {
+    color: #ff47fe;
+    font-size: 13px;
+  }
+
+  .main .item .code span.red {
+    color: #ff496b;
+    font-size: 13px;
+  }
+
+  .main .item .code span.orange {
+    color: #ff9c43;
+    font-size: 13px;
+  }
+
+
 
 </style>

@@ -20,7 +20,7 @@
                   </div>
                   <p class="description">Import Ceempl by adding this line to your app’s entry point (usually <code>index.js</code> or <code>app.js</code>)</p>
                   <div class="code">
-                    <pre><code>import 'ceempl'</code></pre>
+                    <pre><code>import <span class="blue">'ceempl'</span></code></pre>
                   </div>
                 </div>
                 <div class="item">
@@ -31,10 +31,10 @@
                   </div>
                   <p class="description">You can easily import in your <code>main.js</code> file and use.</p>
                   <div class="code">
-                    <pre><code>export default {
-    css: [
+                    <pre><code>export default {<span class="blue">
+      css: [
         'ceempl'
-    ]
+    ]</span>
 }</code></pre>
                   </div>
                 </div>
@@ -46,7 +46,10 @@
                   <span class="title">On this page</span>
                   <ul>
                       <li>
-                        <p>Intro</p>
+                        <a href="#import">Import</a>
+                      </li>
+                      <li>
+                        <a href="#webpack">Webpack</a>
                       </li>
                   </ul>
                 </div>

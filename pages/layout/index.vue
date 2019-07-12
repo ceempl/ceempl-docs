@@ -10,7 +10,7 @@
               <div class="main">
                 <div class="title">
                   <h1>Overview</h1>
-                  <p>Components and options for laying out your Bootstrap project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.</p>
+                  <p>Components and options for laying out your Ceempl project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.</p>
                 </div>
                 <div class="item">
                   <div class="header">
@@ -18,7 +18,7 @@
                     <span>1</span>
                     <h4>Containers</h4>
                   </div>
-                  <p class="description">Containers are the most basic layout element in Bootstrap and are required when using our default grid system.</p>
+                  <p class="description">Containers are the most basic layout element in Ceempl and are required when using our default grid system.</p>
                   <div class="code">
                     <pre><code><<span>div class="container"</span>>
   <span class="comment"> <span><</span>!-- Content here --> </span>
@@ -31,7 +31,7 @@
                     <span>2</span>
                     <h4>Container fluid</h4>
                   </div>
-                  <p class="description">Containers are the most basic layout element in Bootstrap and are required when using our default grid system.</p>
+                  <p class="description">Containers are the most basic layout element in Ceempl and are required when using our default grid system.</p>
                   <div class="code">
                     <pre><code><<span>div class="container-fluid"</span>>
   <span class="comment"> <span><</span>!-- Content here --> </span>
@@ -46,7 +46,10 @@
                   <span class="title">On this page</span>
                   <ul>
                       <li>
-                        <p>Intro</p>
+                        <a href="#container">Container</a>
+                      </li>
+                      <li>
+                        <a href="#containerFluid">Container-fluid</a>
                       </li>
                   </ul>
                 </div>
