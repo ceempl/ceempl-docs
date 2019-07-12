@@ -56,4 +56,97 @@
     box-sizing: border-box;
     margin: 0;
   }
+
+  .main {
+    margin-top: 50px;
+  }
+
+  .main .title {
+    border-bottom: 1px solid #FAFAFA;
+    padding-bottom: 30px;
+  }
+
+  .main .title h1 {
+    font-size: 24px;
+    color: #212121;
+    margin-bottom: 5px;
+  }
+
+  .main .title p {
+    color: #9A9A9A;
+  }
+
+  .main .item {
+    margin: 30px 0 50px 0;
+  }
+
+  .main .item:hover .header a {
+    opacity: 1;
+  }
+
+  .main .item .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .main .item .header a {
+    margin: 0 10px 0 -20px;
+    opacity: 0;
+    text-decoration: none;
+    color: #9A9A9A;
+    transition: all 100ms ease-in-out;
+  }
+
+  .main .item .header a:hover {
+    color: #212121;
+  }
+
+  .main .item .header span {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: #F8F9FF;
+    color: #2F4BFF;
+  }
+
+  .main .item .header h4 {
+    font-size: 16px;
+    color: #212121;
+  }
+
+  .main .item p.description {
+    color: #9A9A9A;
+  }
+
+  .main .item .code {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #2D3748;
+    color: #FFF;
+    border-radius: 7px;
+  }
+
+  .main .item img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  .main .item .code span.comment {
+    font-size: 12px;
+    color: #A0AEC0;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+
+  .main .item .code span.blue {
+    font-size: 12px;
+    color: #65CAFF;
+    margin-bottom: 0;
+  }
 </style>
