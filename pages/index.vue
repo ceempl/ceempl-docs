@@ -45,7 +45,10 @@
           </li>
         </ul>
       </div>
-  </div>
+    </div>
+    <svg class="bg" id="logo" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+      <path id="Path_12" data-name="Path 12" d="M22.5,45A22.5,22.5,0,1,1,45,22.5,22.534,22.534,0,0,1,22.5,45Zm0-35A12.5,12.5,0,1,0,35,22.5,12.5,12.5,0,0,0,22.5,10Z" />
+    </svg>
   </div>
 </template>
 
@@ -56,9 +59,23 @@
   font-weight: bold;
 }
 
+.bg {
+  position: fixed;
+  bottom: -450px;
+  left: -550px;
+  width: 1200px;
+  height: 1200px;
+  z-index: 0;
+  fill: #FFF;
+  opacity: 0.03;
+  user-select: none;
+}
+
 .navbar {
   height: 100px;
   border-bottom: none;
+  position: relative;
+  z-index: 2;
 }
 
 .navbar ul {
@@ -121,6 +138,8 @@ li {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  z-index: 2;
 }
 
 .intro svg {
@@ -163,6 +182,8 @@ li {
   min-height: 100px;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .footer ul {
