@@ -60,6 +60,7 @@
 
   .main {
     margin-top: 50px;
+    min-height: 80vh
   }
 
   .main .title {
@@ -151,6 +152,23 @@
     border-radius: 8px;
   }
 
+  .main .item .example {
+    font-family: Ubuntu;
+    margin: 40px 0 25px 0;
+    padding: 10px;
+    border: 1px solid #F8F9FF;
+    border-radius: 7px;
+  }
+
+  .main .item .example .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #2F4BFF;
+    background-color: #F8F9FF;
+  }
+
   .main .item .code span.comment {
     font-size: 12px;
     color: #A0AEC0;
@@ -187,7 +205,5 @@
     color: #ff9c43;
     font-size: 13px;
   }
-
-
 
 </style>

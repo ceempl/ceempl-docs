@@ -56,7 +56,9 @@
 <style>
 
     .sidebar {
-        margin-top: 60px;
+        padding-top: 60px;
+        position: sticky;
+        top: 0;
     }
 
     .sidebar .item {
