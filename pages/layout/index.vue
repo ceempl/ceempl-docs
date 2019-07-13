@@ -15,7 +15,6 @@
                 <div class="item">
                   <div class="header">
                     <a href="#container">#</a>
-                    <span>1</span>
                     <h4>Containers</h4>
                   </div>
                   <p class="description">Containers are the most basic layout element in Ceempl and are required when using our default grid system.</p>
@@ -33,7 +32,6 @@
                 <div class="item">
                   <div class="header">
                     <a href="#containerFluid">#</a>
-                    <span>2</span>
                     <h4>Container fluid</h4>
                   </div>
                   <p class="description">Containers are the most basic layout element in Ceempl and are required when using our default grid system.</p>

@@ -154,10 +154,13 @@
 
   .main .item .example {
     font-family: Ubuntu;
-    margin: 40px 0 25px 0;
+    margin: 20px 0;
     padding: 10px;
     border: 1px solid #F8F9FF;
     border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .main .item .example .body {

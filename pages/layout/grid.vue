@@ -9,43 +9,42 @@
             <div class="col md-8">
               <div class="main">
                 <div class="title">
-                  <h1>Overview</h1>
+                  <h1>Grid</h1>
                   <p>Components and options for laying out your Ceempl project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.</p>
                 </div>
                 <div class="item">
                   <div class="header">
                     <a href="#container">#</a>
-                    <span>1</span>
-                    <h4>Containers</h4>
+                    <h4>How it works</h4>
                   </div>
                   <p class="description">Containers are the most basic layout element in Ceempl and are required when using our default grid system.</p>
                   <div class="example">
-                    <div class="container-example body">
-                      <code>.container</code>
+                    <div class="container-example">
+                        <div class="grid-example col body">
+                            <code>.col-md-3</code>
+                        </div>
+                        <div class="grid-example col body">
+                            <code>.col-md-3</code>
+                        </div>
+                        <div class="grid-example col body">
+                            <code>.col-md-3</code>
+                        </div>
                     </div>
                   </div>
                   <div class="code">
-                    <pre><code><<span>div class=<span class="blue">"container"</span></span>>
-  <span class="comment"> <span><</span>!-- Content here --> </span>
-<<span>/div</span>></code></pre>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="header">
-                    <a href="#containerFluid">#</a>
-                    <span>2</span>
-                    <h4>Container fluid</h4>
-                  </div>
-                  <p class="description">Containers are the most basic layout element in Ceempl and are required when using our default grid system.</p>
-                  <div class="example">
-                    <div class="container-fluid-example body">
-                      <code>.container-fluid</code>
-                    </div>
-                  </div>
-                  <div class="code">
-                    <pre><code><<span>div class=<span class="blue">"container-fluid"</span></span>>
-  <span class="comment"> <span><</span>!-- Content here --> </span>
-<<span>/div</span>></code></pre>
+                    <pre><code><<span>div class=<span class="blue">“container”</span>></span>
+  <<span>div class=<span class="blue">“row”</span>></span>
+    <<span>div class=<span class="blue">“col-md-3”</span>></span>
+      <span class="comment">// One of three columns</span>
+    <<span>/div></span>
+    <<span>div class=<span class="blue">“col-md-3”</span>></span>
+      <span class="comment">// One of three columns</span>
+    <<span>/div></span>
+    <<span>div class=<span class="blue">“col-md-3”</span>></span>
+      <span class="comment">// One of three columns</span>
+    <<span>/div></span>
+  <<span>/div></span>
+<<span>/div></span></code></pre>
                   </div>
                 </div>
               </div>
@@ -82,12 +81,19 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 .container-example {
-  height: 100px;
+  height: 35px;
   width: 60%;
   margin: auto;
+  display: flex;
+}
+
+.grid-example {
+  height: 35px;
+  flex-basis: 30.33%;
+  margin: 0 5px;
 }
 
 .container-fluid-example {

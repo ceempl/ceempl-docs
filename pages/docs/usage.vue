@@ -15,7 +15,6 @@
                 <div class="item">
                   <div class="header">
                     <a href="#import">#</a>
-                    <span>1</span>
                     <h4>Import as a module</h4>
                   </div>
                   <p class="description">Import Ceempl by adding this line to your app’s entry point (usually <code>index.js</code> or <code>app.js</code>)</p>
@@ -26,7 +25,6 @@
                 <div class="item">
                   <div class="header">
                     <a href="#webpack">#</a>
-                    <span>2</span>
                     <h4>Webpack config</h4>
                   </div>
                   <p class="description">You can easily import in your <code>main.js</code> file and use.</p>
