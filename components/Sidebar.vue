@@ -25,31 +25,6 @@
                 </li>
             </ul>
         </div>
-        <div class="item">
-            <span class="title">Content</span>
-            <ul>
-                <li>
-                    <nuxt-link to="/content/typography">Typography</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link to="/content/code">Code</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link to="/content/images">Images</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link to="/content/tables">Tables</nuxt-link>
-                </li>
-            </ul>
-        </div>
-        <div class="item">
-            <span class="title">Components</span>
-            <ul>
-                <li>
-                    <nuxt-link to="/components/buttons">Buttons</nuxt-link>
-                </li>
-            </ul>
-        </div>
     </div>
 </template>
 
