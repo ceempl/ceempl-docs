@@ -12,7 +12,7 @@
                   <h1>Overview</h1>
                   <p>Components and options for laying out your Ceempl project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.</p>
                 </div>
-                <div class="item">
+                <div class="item" id="container">
                   <div class="header">
                     <a href="#container">#</a>
                     <h4>Containers</h4>
@@ -29,7 +29,7 @@
 <<span>/div</span>></code></pre>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" id="containerFluid">
                   <div class="header">
                     <a href="#containerFluid">#</a>
                     <h4>Container fluid</h4>

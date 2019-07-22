@@ -12,7 +12,7 @@
                   <h1>Installation</h1>
                   <p>Quick start guide for installing and configuring Ceempl.</p>
                 </div>
-                <div class="item">
+                <div class="item" id="npm">
                   <div class="header">
                     <a href="#npm">#</a>
                     <span>1</span>
@@ -24,7 +24,7 @@
 npm install ceempl</code></pre>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" id="yarn">
                   <div class="header">
                     <a href="#yarn">#</a>
                     <span>2</span>
@@ -36,7 +36,7 @@ npm install ceempl</code></pre>
 yarn add ceempl</code></pre>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" id="cdn">
                   <div class="header">
                     <a href="#cdn">#</a>
                     <span>3</span>

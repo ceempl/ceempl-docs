@@ -12,7 +12,7 @@
                   <h1>Usage</h1>
                   <p><nuxt-link to="/docs/installation">Install Ceempl</nuxt-link> as a module using npm or yarn.</p>
                 </div>
-                <div class="item">
+                <div class="item" id="import">
                   <div class="header">
                     <a href="#import">#</a>
                     <h4>Import as a module</h4>
@@ -22,7 +22,7 @@
                     <pre><code>import <span class="blue">'ceempl'</span></code></pre>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item" id="webpack">
                   <div class="header">
                     <a href="#webpack">#</a>
                     <h4>Webpack config</h4>
