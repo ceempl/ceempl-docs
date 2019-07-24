@@ -55,7 +55,7 @@
 <style scoped>
 
 .home {
-  background-image: linear-gradient(55deg, #2538B1 0%, #2F4BFF 50%, #00D6F8 100%);
+  background-image: linear-gradient(55deg, #2538B1 0%, #001FFF 50%, #00D6F8 100%);
   font-weight: bold;
 }
 

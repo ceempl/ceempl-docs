@@ -44,10 +44,10 @@
                   <span class="title">On this page</span>
                   <ul>
                       <li>
-                        <a href="#import">Import</a>
+                        <a href="#import">#import</a>
                       </li>
                       <li>
-                        <a href="#webpack">Webpack</a>
+                        <a href="#webpack">#webpack</a>
                       </li>
                   </ul>
                 </div>

@@ -64,22 +64,22 @@
   }
 
   .main .title {
-    border-bottom: 1px solid #FAFAFA;
+    border-bottom: 1px solid #F8F9FD;
     padding-bottom: 30px;
   }
 
   .main .title h1 {
     font-size: 24px;
-    color: #212121;
+    color: #2A2E4C;
     margin-bottom: 5px;
   }
 
   .main .title p {
-    color: #9A9A9A;
+    color: #9C9C9F;
   }
 
   .main .title a {
-    color: #2F4BFF;
+    color: #001FFF;
     text-decoration: none;
   }
 
@@ -89,6 +89,7 @@
 
   .main .item:hover .header a {
     opacity: 1;
+    transform: translateX(0px)
   }
 
   .main .item .header {
@@ -103,11 +104,12 @@
     opacity: 0;
     text-decoration: none;
     color: #9A9A9A;
+    transform: translateX(5px);
     transition: all 100ms ease-in-out;
   }
 
   .main .item .header a:hover {
-    color: #212121;
+    color: #001FFF;
   }
 
   .main .item .header span {
@@ -118,13 +120,13 @@
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    background-color: #F8F9FF;
-    color: #2F4BFF;
+    background-color: #F8F9FD;
+    color: #001FFF;
   }
 
   .main .item .header h4 {
     font-size: 16px;
-    color: #212121;
+    color: #2A2E4C;
   }
 
   .main .item p.description {
@@ -132,16 +134,18 @@
   }
 
   .main .item p.description code {
-    background: #F8F9FF;
+    background: #F8F9FD;
     margin: 0 2px;
-    padding: 3px 8px;
-    color: #2F4BFF;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 4px 8px;
+    color: #001FFF;
   }
 
   .main .item .code {
     margin: 20px 0;
     padding: 10px 20px;
-    background: #272C35;
+    background: #2A2E4C;
     color: #FFF;
     border-radius: 7px;
   }
@@ -156,7 +160,7 @@
     font-family: Ubuntu;
     margin: 20px 0;
     padding: 10px;
-    border: 1px solid #F8F9FF;
+    border: 1px solid #F8F9FD;
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -168,15 +172,14 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    color: #2F4BFF;
-    background-color: #F8F9FF;
+    color: #001FFF;
+    background-color: #F8F9FD;
   }
 
   .main .item .code span.comment {
     font-size: 12px;
-    color: #A0AEC0;
+    color: #C1C6E0;
     display: inline-block;
-    font-style: italic;
   }
 
   .main .item .code span.comment.margin {

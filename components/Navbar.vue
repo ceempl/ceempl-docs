@@ -28,7 +28,7 @@
 <style lang="css">
 
   .navbar {
-    border-bottom: 1px solid #F8F9FF;
+    border-bottom: 1px solid #F8F9FD;
   }
 
   .navbar ul {
@@ -58,22 +58,31 @@
   .navbar ul li.logo svg {
     width: 40px;
     margin-right: 12px;
-    fill: #2F4BFF;
+    fill: #001FFF;
+  }
+
+  .navbar ul li.logo:hover svg {
+    fill: #001FFF;
   }
 
   .navbar ul li.logo h2 {
     font-size: 20px;
-    color: #2F4BFF;
+    color: #17152E;
   }
 
   .navbar ul li span {
     font-size: 12px;
-    color: #9A9A9A;
+    color: #ACA9C7;
   }
 
   .navbar ul li a svg {
     width: 18px;
-    fill: #9A9A9A;
+    fill: #ACA9C7;
+    transition: all 150ms ease-in-out;
+  }
+
+  .navbar ul li a:hover svg {
+    fill: #17152E;
   }
 </style>
 

@@ -20,7 +20,7 @@ export default {
   ** Customize the progress-bar color
   */
   loading: {
-    color: '#2F4BFF'
+    color: '#001FFF'
   },
   /*
   ** Global CSS

@@ -47,38 +47,54 @@
     .sidebar .item .title {
         font-size: 13px;
         text-transform: uppercase;
-        color: #9A9A9A;
+        color: #ACA9C7;
     }
 
     .sidebar .item ul {
-        margin-top: 10px;
+        margin-top: 15px;
         padding: 0;
     }
 
     .sidebar .item ul li {
         list-style: none;
-        margin: 5px 0;
+        margin: 10px 0;
     }
 
     .sidebar .item ul li a {
-        color: #212121;
+        color: #ACA9C7;
         text-decoration: none;
-        padding: 7px 10px;
-        background-color: #FFF;
-        border-radius: 6px;
+        position: relative;
+        padding: 3px 10px;
         width: 135px;
         display: flex;
+        border-left: 2px solid transparent;
+        transition: all 150ms ease-in-out;
+    }
+
+    .sidebar .item ul li a:hover {
+        color: #17152E;
     }
 
     .sidebar .item ul li p {
-        color: #212121;
+        color: #ACA9C7;
         padding: 7px 10px;
         display: flex;
     }
 
     .sidebar .item ul li a.nuxt-link-exact-active {
-        color: #2F4BFF;
-        background-color: #F8F9FF;
+        color: #17152E;
+        /* border-color: #001FFF; */
+    }
+
+    .sidebar .item ul li a.nuxt-link-exact-active::before {
+        content: '';
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        background-color: #001FFF;
+        top: 0;
+        border-radius: 10px;
     }
 </style>
 

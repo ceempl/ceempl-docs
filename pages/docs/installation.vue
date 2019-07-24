@@ -56,13 +56,13 @@ yarn add ceempl</code></pre>
                   <span class="title">On this page</span>
                   <ul>
                       <li>
-                        <a href="#npm">npm</a>
+                        <a href="#npm">#npm</a>
                       </li>
                       <li>
-                        <a href="#yarn">yarn</a>
+                        <a href="#yarn">#yarn</a>
                       </li>
                       <li>
-                        <a href="#cdn">cdn</a>
+                        <a href="#cdn">#cdn</a>
                       </li>
                   </ul>
                 </div>

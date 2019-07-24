@@ -21,27 +21,21 @@
                   <div class="example">
                     <div class="container-example">
                         <div class="grid-example col body">
-                            <code>.col-md-3</code>
+                            <code>.col</code>
                         </div>
                         <div class="grid-example col body">
-                            <code>.col-md-3</code>
-                        </div>
-                        <div class="grid-example col body">
-                            <code>.col-md-3</code>
+                            <code>.col</code>
                         </div>
                     </div>
                   </div>
                   <div class="code">
                     <pre><code><<span>div class=<span class="blue">“container”</span>></span>
   <<span>div class=<span class="blue">“row”</span>></span>
-    <<span>div class=<span class="blue">“col-md-3”</span>></span>
-      <span class="comment">// One of three columns</span>
+    <<span>div class=<span class="blue">“col”</span>></span>
+      x<span class="comment"><span><</span>!-- Content here --></span>
     <<span>/div></span>
-    <<span>div class=<span class="blue">“col-md-3”</span>></span>
-      <span class="comment">// One of three columns</span>
-    <<span>/div></span>
-    <<span>div class=<span class="blue">“col-md-3”</span>></span>
-      <span class="comment">// One of three columns</span>
+    <<span>div class=<span class="blue">“col”</span>></span>
+      <span class="comment"><span><</span>!-- Content here --></span>
     <<span>/div></span>
   <<span>/div></span>
 <<span>/div></span></code></pre>
@@ -92,7 +86,7 @@ export default {
 
 .grid-example {
   height: 35px;
-  flex-basis: 30.33%;
+  flex-basis: 50%;
   margin: 0 5px;
 }
 
