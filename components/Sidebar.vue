@@ -4,10 +4,7 @@
             <span class="title">Getting started</span>
             <ul>
                 <li>
-                    <nuxt-link to="/docs">Introduction</nuxt-link>
-                </li>
-                <li>
-                    <nuxt-link to="/docs/installation">Installation</nuxt-link>
+                    <nuxt-link to="/docs">Installation</nuxt-link>
                 </li>
                 <li>
                     <nuxt-link to="/docs/usage">Usage</nuxt-link>
