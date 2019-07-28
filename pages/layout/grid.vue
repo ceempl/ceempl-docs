@@ -3,10 +3,10 @@
         <Navbar />
         <div class="docs">
           <div class="row">
-            <div class="col md-2">
+            <div class="col xl-2 lg-2 md-12 sm-12">
               <Sidebar />
             </div>
-            <div class="col md-8">
+            <div class="col xl-8 lg-8 md-12 sm-12">
               <div class="main">
                 <div class="title">
                   <h1>Grid</h1>
@@ -43,7 +43,7 @@
                 </div>
               </div>
             </div>
-            <div class="col md-2">
+            <div class="col xl-2 lg-2 md-12 sm-12">
               <div class="sidebar right">
                 <div class="item">
                   <span class="title">On this page</span>
