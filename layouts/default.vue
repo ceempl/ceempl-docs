@@ -144,7 +144,7 @@
 
   .main .item .code {
     margin: 20px 0;
-    padding: 10px 20px;
+    padding: 15px 25px;
     background: #2A2E4C;
     color: #FFF;
     border-radius: 7px;
@@ -211,5 +211,50 @@
     color: #ff9c43;
     font-size: 13px;
   }
+  
+  .main .item table {
+
+  }
+
+  .main .tip {
+    background-color: #F8F9FD;
+    padding: 15px 25px;
+    border-radius: 7px;
+  }
+
+  .main .tip h4 {
+    font-size: 14px;
+    color: #17152E;
+    margin-bottom: 6px;
+  }
+
+  .main .tip p {
+    font-size: 13px;
+    color: #ACA9C7;
+  }
+
+  /* @media screen and (max-width: 991px) {
+    
+    .sidebar.left {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: #FFF;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .sidebar.right {
+      display: none;
+    }
+  } */
 
 </style>
