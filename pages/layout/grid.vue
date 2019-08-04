@@ -45,7 +45,7 @@
                   <h4>Utility classes for hiding elements</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolore dolorem quaerat ea aliquid, enim animi culpa magnam nulla, impedit ad laboriosam nemo error minus?</p>
                 </div>
-                <div class="item" id="">
+                <div class="item" id="table">
                   <div class="header">
                     <a href="#">#</a>
                     <h4>Classname Description</h4>
