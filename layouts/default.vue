@@ -260,10 +260,8 @@
   @media screen and (max-width: 991px) {
 
     .navbar {
-      width: 100%;
-      /* position: fixed; */
+      position: relative;
       z-index: 10000;
-      top: 0;
     }
 
     .navbar ul li.menu {
