@@ -257,7 +257,22 @@
     color: #ACA9C7;
   }
 
-  /* @media screen and (max-width: 991px) {
+  @media screen and (max-width: 991px) {
+
+    .navbar {
+      width: 100%;
+      /* position: fixed; */
+      z-index: 10000;
+      top: 0;
+    }
+
+    .navbar ul li.menu {
+      display: flex !important;
+    }
+
+    .navbar ul li.version {
+      display: none;
+    }
     
     .sidebar.left {
       position: fixed;
@@ -270,15 +285,20 @@
       height: 100%;
       z-index: 10;
       padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: none;
+      align-items: flex-start;
+      justify-content: flex-start;
       flex-direction: column;
+      padding: 200px 40px;
+    }
+
+    .sidebar.left.show {
+      display: flex;
     }
     
     .sidebar.right {
       display: none;
     }
-  } */
+  }
 
 </style>
