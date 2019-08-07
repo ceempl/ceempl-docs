@@ -213,7 +213,31 @@
   }
   
   .main .item table {
-
+    width: 100%;
+    font-size: 13px;
+    text-align: left;
+    color: #8B92BC;
+    border-collapse: collapse;
+  }
+  
+  .main .item table th {
+    background-color: #F8F9FD;
+    padding: 13px 20px;
+  }
+  
+  .main .item table th:first-child {
+    min-width: 150px;
+    border-top-left-radius: 7px;
+  }
+  
+  .main .item table th:last-child {
+    border-top-right-radius: 7px;
+  }
+  
+  .main .item table td {
+    min-width: 150px;
+    padding: 13px 20px;
+    border-bottom: 1px solid #F8F9FD;
   }
 
   .main .tip {

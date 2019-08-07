@@ -32,7 +32,7 @@
                     <pre><code><<span>div class=<span class="blue">“container”</span>></span>
   <<span>div class=<span class="blue">“row”</span>></span>
     <<span>div class=<span class="blue">“col”</span>></span>
-      x<span class="comment"><span><</span>!-- Content here --></span>
+      <span class="comment"><span><</span>!-- Content here --></span>
     <<span>/div></span>
     <<span>div class=<span class="blue">“col”</span>></span>
       <span class="comment"><span><</span>!-- Content here --></span>
