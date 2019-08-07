@@ -24,7 +24,10 @@
     background-clip: content-box;
   }
 
+  @import url('https://fonts.googleapis.com/css?family=Quicksand:600|Ubuntu:500&display=swap');
+
   body {
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
   }
   
@@ -41,7 +44,7 @@
   }
 
   code {
-    font-family: ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
     font-size: 13px;
     letter-spacing: 0.25px;
@@ -157,7 +160,7 @@
   }
 
   .main .item .example {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     margin: 20px 0;
     padding: 10px;
     border: 1px solid #F8F9FD;
@@ -287,7 +290,7 @@
       align-items: flex-start;
       justify-content: flex-start;
       flex-direction: column;
-      padding: 200px 40px;
+      padding: 150px 40px;
     }
 
     .sidebar.left.show {
