@@ -60,7 +60,7 @@
 
   .main {
     margin-top: 50px;
-    min-height: 80vh
+    min-height: 85vh
   }
 
   .main .title {
@@ -84,7 +84,7 @@
   }
 
   .main .item {
-    margin: 30px 0 50px 0;
+    padding: 30px 0;
   }
 
   .main .item:hover .header a {
