@@ -108,6 +108,10 @@
   fill: #FFF;
 }
 
+.navbar ul li.logo:hover svg {
+  fill: #FFF;
+}
+
 .navbar ul li.logo h2 {
   font-size: 20px;
   color: #FFF;
@@ -120,6 +124,10 @@
 
 .navbar ul li a svg {
   width: 18px;
+  fill: #FFF;
+}
+
+.navbar ul li a:hover svg {
   fill: #FFF;
 }
 
