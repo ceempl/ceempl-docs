@@ -10,7 +10,7 @@
               <div class="main">
                 <div class="title">
                   <h1>Installation</h1>
-                  <p>Quick start guide for installing Ceempl.</p>
+                  <p>Quickly get started with Ceempl.</p>
                 </div>
                 <div class="item" id="npm">
                   <div class="header">
