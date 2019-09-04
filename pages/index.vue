@@ -29,7 +29,7 @@
         <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
           <path id="Path_12" data-name="Path 12" d="M22.5,45A22.5,22.5,0,1,1,45,22.5,22.534,22.534,0,0,1,22.5,45Zm0-35A12.5,12.5,0,1,0,35,22.5,12.5,12.5,0,0,0,22.5,10Z" />
         </svg>
-        <p>A lightweight and simple front-end framework for developing fast web interfaces.</p>
+        <p>A minimal and simple front-end framework for developing web interfaces.</p>
         <div class="action">
           <nuxt-link to="/docs" class="primary">Get started</nuxt-link>
           <a class="secondary" href="https://github.com/ceempl/ceempl" target="_blank">GitHub</a>

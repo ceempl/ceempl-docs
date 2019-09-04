@@ -24,11 +24,10 @@
     background-clip: content-box;
   }
 
-  @import url('https://fonts.googleapis.com/css?family=Quicksand:600|Ubuntu:500&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Ubuntu&display=swap');
 
   body {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
   }
   
   html {
