@@ -30,7 +30,7 @@ npm install ceempl</code></pre>
                     <span>2</span>
                     <h4>Install Ceempl via yarn</h4>
                   </div>
-                  <p class="description">And for most projects, you’ll want to install Ceempl via yarn.</p>
+                  <p class="description">Also you can install Ceempl via Yarn.</p>
                   <div class="code">
                     <pre><code><span class="comment margin">#using yarn</span>
 yarn add ceempl</code></pre>
@@ -42,10 +42,10 @@ yarn add ceempl</code></pre>
                     <span>3</span>
                     <h4>Using CDN</h4>
                   </div>
-                  <p class="description">Looking to quickly add Ceempl to your project? Use CeemplCDN, provided for free by the folks at UNPKG. </p>
+                  <p class="description">Or you can use CDN.</p>
                   <div class="code">
                     <pre><code><span class="comment margin">#using CDN</span>
-<<span>link rel="<span class="blue">stylesheet</span>" href="<span class="blue">https://unpkg.com/ceempl@0.1.0/dist/ceempl.css</span>"</span>></code></pre>
+<<span>link rel="<span class="blue">stylesheet</span>" href="<span class="blue">https://unpkg.com/ceempl@0.1.3/dist/ceempl.css</span>"</span>></code></pre>
                   </div>
                 </div>
               </div>

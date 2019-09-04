@@ -43,6 +43,7 @@
 
     .sidebar .item .title {
         font-size: 13px;
+        font-weight: bold;
         text-transform: uppercase;
         color: #ACA9C7;
     }

@@ -137,7 +137,7 @@
 
   .main .item p.description code {
     background: #F8F9FD;
-    margin: 0 2px;
+    margin: 0 1px;
     border-radius: 4px;
     font-size: 12px;
     padding: 4px 8px;

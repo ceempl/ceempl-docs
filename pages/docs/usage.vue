@@ -10,7 +10,7 @@
               <div class="main">
                 <div class="title">
                   <h1>Usage</h1>
-                  <p><nuxt-link to="/docs/installation">Install Ceempl</nuxt-link> as a module using npm or yarn.</p>
+                  <p><nuxt-link to="/docs">Install Ceempl</nuxt-link> as a module using npm or yarn.</p>
                 </div>
                 <div class="item" id="import">
                   <div class="header">
@@ -25,14 +25,14 @@
                 <div class="item" id="webpack">
                   <div class="header">
                     <a href="#webpack">#</a>
-                    <h4>Webpack config</h4>
+                    <h4>Webpack</h4>
                   </div>
-                  <p class="description">You can easily import in your <code>main.js</code> file and use.</p>
+                  <p class="description">You can easily add Ceempl in your webpack config file and use.</p>
                   <div class="code">
-                    <pre><code>export default {<span class="blue">
+                    <pre><code>export default {
       css: [
-        'ceempl'
-    ]</span>
+        <span class="blue">'ceempl'</span>
+    ]
 }</code></pre>
                   </div>
                 </div>
