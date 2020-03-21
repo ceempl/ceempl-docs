@@ -1,3 +1,3 @@
 # ceempl-docs
 
-> [ceempl](https://ceempl.com) A simple framework for UI development
+> [ceempl](https://ceempl.com), a simple framework for UI development
