@@ -1,52 +1,27 @@
-
-export default {
-  mode: 'universal',
-  /*
-  ** Headers of the page
-  */
+const config = {
+  mode: "universal",
   head: {
-    // title: process.env.npm_package_name || '',
-    title: 'Ceempl Framework',
+    title: "Ceempl Framework",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: process.env.npm_package_description || ""
+      }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
-  /*
-  ** Customize the progress-bar color
-  */
   loading: {
-    color: '#001FFF'
+    color: "#001FFF"
   },
-  /*
-  ** Global CSS
-  */
-  css: [
-    'ceempl'
-  ],
-  /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-  ],
-  /*
-  ** Nuxt.js modules
-  */
-  modules: [
-    '@nuxtjs/pwa',
-  ],
-  /*
-  ** Build configuration
-  */
+  css: ["ceempl"],
+  plugins: [],
+  modules: ["@nuxtjs/pwa"],
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-    }
+    extend(config, ctx) {}
   }
-}
+};
+
+export default config;
