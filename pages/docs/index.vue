@@ -18,7 +18,7 @@
                 <span>1</span>
                 <h4>Install Ceempl via npm</h4>
               </div>
-              <p class="description">For most projects, you’ll want to install Ceempl via npm.</p>
+              <p class="description">For most projects, you’ll want to install Ceempl via npm,</p>
               <div class="code">
                 <pre><code><span class="comment margin">#using npm</span>
 npm install ceempl</code></pre>
@@ -30,7 +30,7 @@ npm install ceempl</code></pre>
                 <span>2</span>
                 <h4>Install Ceempl via yarn</h4>
               </div>
-              <p class="description">Also you can install Ceempl via Yarn.</p>
+              <p class="description">Also you can install Ceempl via Yarn,</p>
               <div class="code">
                 <pre><code><span class="comment margin">#using yarn</span>
 yarn add ceempl</code></pre>
@@ -45,7 +45,7 @@ yarn add ceempl</code></pre>
               <p class="description">Or you can use CDN.</p>
               <div class="code">
                 <pre><code><span class="comment margin">#using CDN</span>
-<<span>link rel="<span class="blue">stylesheet</span>" href="<span class="blue">https://unpkg.com/ceempl@0.1.3/dist/ceempl.css</span>"</span>></code></pre>
+<<span>link rel="<span class="blue">stylesheet</span>" href="<span class="blue">https://unpkg.com/ceempl/dist/ceempl.css</span>"</span>></code></pre>
               </div>
             </div>
           </div>

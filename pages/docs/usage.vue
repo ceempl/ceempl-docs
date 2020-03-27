@@ -33,7 +33,7 @@
                 <a href="#webpack">#</a>
                 <h4>Webpack</h4>
               </div>
-              <p class="description">You can easily add Ceempl in your webpack config file and use.</p>
+              <p class="description">You can easily add Ceempl in your webpack config file.</p>
               <div class="code">
                 <pre><code>export default {
       css: [

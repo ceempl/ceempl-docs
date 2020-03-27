@@ -85,6 +85,7 @@ pre {
 
 .main .title a {
   color: #001fff;
+  margin-right: 5px;
   text-decoration: none;
 }
 
@@ -93,8 +94,8 @@ pre {
 }
 
 .main .item:hover .header a {
-  opacity: 1;
-  transform: translateX(0px);
+  /* opacity: 1;
+  transform: translateX(0px); */
 }
 
 .main .item .header {
