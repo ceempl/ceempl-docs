@@ -50,6 +50,34 @@
 <<span>/div</span>></code></pre>
               </div>
             </div>
+            <div class="tip">
+              <h4>Utility classes for hiding elements</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolore dolorem quaerat ea aliquid, enim animi culpa magnam nulla, impedit ad laboriosam nemo error minus?</p>
+            </div>
+            <div class="item" id="table">
+              <div class="header">
+                <a href="#">#</a>
+                <h4>Classname Description</h4>
+              </div>
+              <table>
+                <tr>
+                  <th>Classname</th>
+                  <th>Description</th>
+                </tr>
+                <tr>
+                  <td>.container</td>
+                  <td>Grid container，children align center in parent node</td>
+                </tr>
+                <tr>
+                  <td>.container-fluid</td>
+                  <td>The container has a gap of 24px between the left and right sides</td>
+                </tr>
+                <tr>
+                  <td>.row</td>
+                  <td>container that wraps col</td>
+                </tr>
+              </table>
+            </div>
           </div>
         </div>
         <div class="col xl-2 lg-2 md-12 sm-12">
