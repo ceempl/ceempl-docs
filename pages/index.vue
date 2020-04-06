@@ -22,7 +22,7 @@
             </nuxt-link>
           </li>
           <li>
-            <span>V0.1.7</span>
+            <span>V0.1.9</span>
           </li>
           <li>
             <a href="https://github.com/ceempl/ceempl" target="_blank">
