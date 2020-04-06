@@ -58,16 +58,20 @@
                   <th>Description</th>
                 </tr>
                 <tr>
-                  <td>.container</td>
-                  <td>Grid container，children align center in parent node</td>
+                  <td>.sm</td>
+                  <td>some text</td>
                 </tr>
                 <tr>
-                  <td>.container-fluid</td>
-                  <td>The container has a gap of 24px between the left and right sides</td>
+                  <td>.md</td>
+                  <td>some text</td>
                 </tr>
                 <tr>
-                  <td>.row</td>
-                  <td>container that wraps col</td>
+                  <td>.lg</td>
+                  <td>some text</td>
+                </tr>
+                <tr>
+                  <td>.xl</td>
+                  <td>some text</td>
                 </tr>
               </table>
             </div>
