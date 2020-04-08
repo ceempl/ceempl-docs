@@ -15,6 +15,25 @@
             <div class="item" id="container">
               <div class="header">
                 <a href="#container">#</a>
+                <h4>Row</h4>
+              </div>
+              <p
+                class="description"
+              >rows are the most basic layout element in Ceempl and are required when using our default grid system.</p>
+              <div class="example">
+                <div class="container-example body">
+                  <code>.container</code>
+                </div>
+              </div>
+              <div class="code">
+                <pre><code><<span>div class=<span class="blue">"container"</span></span>>
+  <span class="comment"> <span><</span>!-- Content here --> </span>
+<<span>/div</span>></code></pre>
+              </div>
+            </div>
+            <div class="item" id="container">
+              <div class="header">
+                <a href="#container">#</a>
                 <h4>Containers</h4>
               </div>
               <p
