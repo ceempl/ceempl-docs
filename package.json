@@ -1,7 +1,7 @@
 {
   "name": "ceempl",
   "version": "1.0.0",
-  "description": "A simple framework for UI development",
+  "description": "A simple css framework for UI development",
   "author": "Mohammadreza",
   "private": true,
   "scripts": {
