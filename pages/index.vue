@@ -25,7 +25,7 @@
             <span>V0.1.9</span>
           </li>
           <li>
-            <a href="https://github.com/ceempl/ceempl" target="_blank">
+            <a href="https://github.com/themzed/ceempl" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18.942"
@@ -59,16 +59,26 @@
             d="M22.5,45A22.5,22.5,0,1,1,45,22.5,22.534,22.534,0,0,1,22.5,45Zm0-35A12.5,12.5,0,1,0,35,22.5,12.5,12.5,0,0,0,22.5,10Z"
           />
         </svg>
-        <p>A minimal and simple front-end framework for developing web interfaces.</p>
+        <p>
+          A minimal and simple front-end framework for developing web
+          interfaces.
+        </p>
         <div class="action">
           <nuxt-link to="/docs" class="primary">Get started</nuxt-link>
-          <a class="secondary" href="https://github.com/ceempl/ceempl" target="_blank">GitHub</a>
+          <a
+            class="secondary"
+            href="https://github.com/themzed/ceempl"
+            target="_blank"
+            >GitHub</a
+          >
         </div>
       </div>
       <div class="footer">
         <ul>
           <li>
-            <a href="https://github.com/ceempl/ceempl" target="_blank">Download</a>
+            <a href="https://github.com/themzed/ceempl" target="_blank"
+              >Download</a
+            >
           </li>
           <li>
             <nuxt-link to="/docs">Docs</nuxt-link>
